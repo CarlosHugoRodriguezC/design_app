@@ -1,4 +1,4 @@
-import 'package:design_app/presentation/screens/headers_screen.dart';
+import 'package:design_app/presentation/presentation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HeadersScreen(),
+      home: PinterestScreen(),
     );
   }
 }
