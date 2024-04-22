@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 import 'package:flutter/material.dart';
 
 class HeaderSquare extends StatelessWidget {
@@ -42,8 +40,7 @@ class HeaderDiagonal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    return Container(
+    return SizedBox(
       height: double.infinity,
       width: double.infinity,
       // color: colorScheme.primaryContainer,
@@ -280,7 +277,6 @@ class _HeaderWavesPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
     return false;
   }
 }
